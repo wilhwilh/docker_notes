@@ -40,4 +40,19 @@ docker container rm <firts three character of the id>
     - remove the container
     - if a container if runninf, can add <-f> to force remove container, else we must stop the container before
 
+docker container top - process list in one container
+docker container inspect - details of one container config
+docker container stats - performance statsfor all containers in real time
     
+----------------------- INSIDE ----------------------------------
+
+docker container run it - star new container interactively
+docker container exec it - run a dditional command in a existing container
+
+docker network ls - show networks
+
+----------------------- DATA -----------------------
+
+docker container  -v //c/Users/<user_name>/stuff:/path/container (windows) the path is inside "
+
+docker container  -v /Users/<user_name>/stuff:/path/container (mac/linux)
